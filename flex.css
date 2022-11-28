@@ -1,0 +1,48 @@
+body {
+    background-image:url("https://media.bitdegree.org/storage/media/images/2018/08/what-is-a-web-developer.jpg"); 
+}
+
+    .container{ 
+        width: auto;
+        height: auto;
+    text-align:center;
+    justify-content:center;
+    align-items:center;
+    }
+    h1{
+        font-size: 48px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .container-box{
+      margin-top: 150px;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    }
+    .menu-box{
+      display:flex;
+      justify-content:center;
+      align-items:center; 
+      margin: 55px 55px;
+    }
+    .menu {
+    border-radius:10px;
+    background-color:white;
+    width:auto;
+    height:auto;
+    text-align:center;
+    margin-right:15px;
+    }
+    a{
+        font-size: 48px;
+        color: lightseagreen;
+    }
+    @media only screen and (max-width: 960px) {
+        .menu-box {
+            flex-direction:column;
+     }
+    
+      }
